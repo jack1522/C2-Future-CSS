@@ -1,29 +1,42 @@
 ---
 layout: layout.liquid
-title: Polaroid Cloud
+title: Color Mix
 ---
 
 
 <main>
   <section class="filmtophone">
-    <h2>Film to Phone</h2>
-  </section>
+  
+    <h2>New CSS Feature : color-mix()</h2> 
+    
   <section class="details">
-    <h3>Any cloud, anytime.</h3>
-    <p>With Polaroid Cloud, you can sync your photos to your favorite cloud service while still enjoying the instant printing you’ve come to expect from Polaroid. Using our special instant photo paper, your image is uploaded to the web and a QR code is generated and printed with the instant photo. Perfect for sharing with your friends and family.</p>
-    <h3>Easy, cheesy!</h3>
-    <ul>
-      <li id="wifi">Connect your Polaroid to WiFi network</li>
-      <li id="upload">Configure your favorite cloud</li>
-      <li id="qr">Point,shoot,and print your QR-tagged photo</li>
-      <li id="sharevid">Share your physical and digital photos with friends and family</li>
-    </ul>
-  </section>
-  <section class="formstuff">
-    <h3>Be the first to know.</h3>
-    <div class="form-container"><form action="#">
-      <input type="text" placeholder="Enter your email address to receive updates"> <input type="button" value="KEEP IN TOUCH">
-    </form>
+    <h3>How it works?</h3>
+    <p>The color-mix() allows a developer to mix 2 colors values
+      (based on channels like srgb, lch, etc.) in order to produce a new color value.</p>
+    <h3>Demo</h3>
+    <p>In this demo we can mix the pink and blue default colors and get a
+      color mix of the two. Color mix take the following three parameters :
+      <ul>
+        <li> A specified channel</li>
+        <li> Color 1 and its percentage</li>
+        <li> Color 2 and its percentage</li>
+        </ul>
+        *** If no percentage is specified, a defualt of 50% is used.
+    </p>
+    <div class=" colorDemo">
+      <span id="colorOne"> C1:&starf; </span>
+      <span id = "operators"> + </span>
+      <span id="colorTwo">C2 &starf; </span>
+      <span id = "operators"> = </span>
+      <span id="colorThree"> C3 &starf; </span>
+      
     </div>
   </section>
+  <section class="formstuff">
+  </section>
+  <a href="https://developer.chrome.com/blog/whats-new-css-ui-2023#color-mix" target="_blank" rel="noreferrer noopener">
+  <div class="colorlink"> 
+   <h3>Read more about color-mix() here</h3> 
+   <span id= "link" ></span></div>
+   </a>
 </main>

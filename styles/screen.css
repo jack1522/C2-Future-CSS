@@ -23,7 +23,7 @@ h2,
 h3 {
   text-align: center;
   font-weight: var(--inter-weight);
-  font-size: 2.5em;
+  font-size: 2em;
   line-height: 1em;
 }
 
@@ -35,75 +35,57 @@ body {
   padding: 0;
 }
 
+.filmtophone a:visited {
+  color: black;
+}
 main {
-  background: url("/images/polaroid.png") no-repeat center 100px;
   margin: 0 auto;
   width: 900px;
 }
 
+.colorlink {
+  display: flex;
+  padding: 5px;
+}
 .filmtophone {
   min-height: 800px;
+  align-items: center;
 }
 
 .filmtophone h2 {
-  font-size: 9em;
+  font-size: 2em;
   line-height: 1em;
   text-transform: uppercase;
   margin: 0;
+  text-align: center;
 }
 
+#link {
+  background: url(/images/link.svg) var(--no-repeat-custom);
+  align-items: center;
+  width: 2em;
+}
 .details p {
   font-size: 1.7em;
 }
 
-.details ul li {
-  list-style: none;
-  margin: 20px 0;
-  padding: 0 0 0 60px;
-  font-size: 1.4em;
+#colorOne {
+  font-size: 8em;
+  color: pink;
 }
 
-ul #wifi {
-  background: url(/images/wifi-solid.svg) var(--no-repeat-custom);
-  align-items: left;
+.colorDemo {
+  text-align: center;
+}
+#colorTwo {
+  font-size: 8em;
+  color: blue;
+}
+#colorThree {
+  font-size: 8em;
+  color: color-mix(in srgb, pink 65%, blue);
 }
 
-ul #upload {
-  background: url(/images/cloud-arrow-up-solid.svg) var(--no-repeat-custom);
-}
-
-ul #qr {
-  background: url(/images/qrcode-solid.svg) var(--no-repeat-custom);
-  margin-left: 3px;
-}
-
-ul #sharevid {
-  background: url(/images/photo-film-solid.svg) var(--no-repeat-custom);
-}
-
-input[type="text"] {
-  margin-right: 10px;
-  width: 650px;
-  padding-left: 10px;
-  color: var(--prim-text-color);
-  border: none;
-  height: 49px;
-}
-
-input[type="button"] {
-  width: 150px;
-  height: 51px;
-  color: var(--main-bg-color);
-  background-color: var(--accent-color);
-  border: none;
-}
-.form-container {
-  background-color: #e2e2e2;
-  border-radius: 25px;
-  margin-bottom: 20px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  width: 100%;
-  height: 110px;
+#operators {
+  font-size: 6em;
 }
